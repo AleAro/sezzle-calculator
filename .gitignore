@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+backend/bin/
+backend/server
+
+# Test / coverage artifacts
+coverage/
+*.out
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / editor / tooling
+.DS_Store
+.idea/
+.vscode/
+.claude/
+*.local
